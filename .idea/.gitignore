@@ -1,0 +1,26 @@
+# секреты
+.env
+*.pem
+secrets/
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# ML артефакты
+*.pt
+*.ckpt
+wandb/
+mlruns/
+datasets/
+checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
